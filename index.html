@@ -10,7 +10,7 @@
         hour = now.getHours();
         time = now.getMinutes();
         if (hour == 11 && time >= 10 && time < 25) return "YES";
-        if (hour == 16 && time >= 25 && time < 40) return "YES";
+        if (hour == 16 && time >= 10 && time < 25) return "YES";
         return "NO";
       }
     </script>
